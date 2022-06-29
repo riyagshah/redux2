@@ -1,0 +1,29 @@
+.todo-div{
+    background-color: #A084CF;
+    padding: 10px;
+    font-size: large;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.main-todo-div{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: auto;
+}
+
+.todo-div-item{
+    background-color: #A084CF;
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.edit-btn {
+    font-size: 17px;
+}
